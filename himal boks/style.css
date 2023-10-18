@@ -1,0 +1,589 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #201f1f;
+    font: bold;
+    
+}
+
+
+
+
+.head {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: rgb(232, 239, 245);
+    width: 100%;
+    
+    color: #080808;
+  }
+  
+  
+
+.head p {
+    color: rgb(26, 24, 24);
+    font-size: small;
+    align-items: center;
+    width: 60%;
+    justify-content: left;
+    float: right;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.heade {
+    list-style: none;
+    display: contents;
+    width: 30%;
+    float: right;
+}
+
+.heade li {
+    margin-right: 20px;
+    box-sizing: border-box;
+    border: #ea1111;
+}
+
+.heade li:last-child {
+    margin-right: 0;
+}
+
+/* Add a box for the right corner */
+.right-corner-box {
+    border: 1px solid #ee7575;
+    padding: 20px;
+}
+.logo{
+
+    justify-content: center;
+}
+    
+
+
+li, a, button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 20;
+    font-size: 16px;
+    color: rgb(15, 20, 20);
+    text-decoration: none;
+   
+}
+ a:hover {
+    color: #f87a05;}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -0 2%;
+    
+}
+
+.logo {
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.sam .nav_links p {
+    list-style: none;
+    display: flex;
+    align-items: right;
+    justify-content: left;
+}
+
+.nav_links li {
+    padding: 10px 20px;
+    background-color: rgb(250, 251, 252);
+    width:auto;
+  
+  
+}
+
+.nav_links li a {
+    transition: all 0;
+    text-align: center;
+    color: #080808;
+    
+}
+
+.nav_links li a:hover {
+    color: #f87a05;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: rgb(213, 104, 14);
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    text-align: right;
+    color: #9b2a2a;
+}
+
+button:hover {
+    background-color: rgb(208, 208, 223);
+}/* Apply styles for the "sami" container */
+
+.all {
+    background-color: #e60f0f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.div1 {
+    background-color: rgb(242, 5, 5);
+    width: 10%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 {
+    background-color: rgb(28, 27, 27);
+    width: 20%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    color: #eae7e7;
+    border: none;
+    border-radius: 5rem;
+}
+.div2 .inne .location{
+    background-color: #0d0e0e;
+    color: #fbf3f3;
+}
+.icon{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6rem;
+}
+.icons{
+padding: 1rem;
+
+}
+.icons i:hover{
+    color: red;
+}
+
+.location {
+    color: #0f0f0f;
+    border: none;
+}
+
+.div3 {
+    background-color: rgb(238, 10, 18);
+    width: 50%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.div3 .inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem;
+    background-color: rgb(238, 237, 236);
+    border: none;
+    display: flex;
+}
+
+.div3 select,
+.div3 input[type="text"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    width: 50%;
+}
+
+.search-button {
+    padding: 0.5rem;
+    background-color: #ded0d0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.search-button:hover {
+    background-color: #ed1337;
+}
+
+.div4 {
+    width: 20%;
+    background-color: rgb(228, 12, 19);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.div4 .fa-cart-shopping {
+    font-size: 24px; 
+    margin-right: 8px; 
+    background-color: #f4ebeb;
+    border-radius: 50%; 
+    padding: 10px; 
+    border: 1px solid rgb(11, 10, 10); 
+    color: #0b0b0b; 
+}
+.div4 .fa-cart-shopping:hover {
+    color: #ea1111;
+}
+
+
+
+
+.fa-magnifying-glass {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+
+
+
+.rep{
+    background-color: red;
+    width: 100%;
+    padding: 1%;
+    
+    
+    
+    }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  body{
+      line-height: 1.5;
+      font-family: 'Poppins', sans-serif;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      color: #080808;
+      justify-self: unset;
+  }
+  footer .container{
+    
+      background-color: white;
+      width: 50%;
+      display: flex;
+      float: left;
+     text-align: center;
+  }
+
+
+
+  .footer-col {
+    background-color: white;
+    display: flex;
+    width: 50%;
+    float: right;
+    align-items: center;
+    justify-content: center; /* To push social links to the right */
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 50px; /* Increase the height to make the links bigger */
+    width: 50px; /* Increase the width to make the links bigger */
+    background-color: rgba(18, 16, 16, 0.2);
+    margin: 0 10px; /* Adjust spacing between social links */
+    text-align: center;
+    line-height: 50px; /* Match the height for vertical alignment */
+    border-radius: 50%;
+    color: #ec3434;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #d02828;
+}
+.row {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    font: 2em sans-serif;
+    float: left;
+    font-size: large;
+
+}
+
+.footer-cols {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.footer-cols h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-cols ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-cols ul li {
+    margin-bottom: 10px;
+}
+
+.footer-cols ul li a {
+    text-decoration: none;
+    color: #1c1919;
+    font-size: 14px;
+}
+.footer-cols ul li a:hover{
+    color: #24262b;
+background-color: #d02828;
+}
+.fa-sharp fa-solid fa-arrow-right{
+    float: right;
+}
+    
+.copyright {
+    text-align: left;
+}
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }.div6{
+    background-color: #d8d2d2;
+    width: 100%;
+    padding: 1%;
+  }
+
+  
+
+  .img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30%;
+    float: left;
+}
+
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    background-color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+    transition: background-color 0.3s;
+    flex: 0 0 calc(33.33% - 20px); /* Three books in a row */
+    margin-right: 20px; /* Adjust spacing between books */
+    margin: 60%;
+    float: right;
+}
+
+
+.book:nth-child(3n) {
+    margin-right: 0; /* Remove margin from the last book in a row */
+}
+.book:hover {
+    background-color: #e6e6e6;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+.book h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.book p {
+    margin: 10px 0;
+}
+
+.book button {
+    background-color: #6d718a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book button :hover {
+    color: #e60f0f;
+
+
+
+
+}
+@media (max-width: 768px) {
+    .books {
+        justify-content: center;
+    }
+
+    .img {
+        justify-content: flex-start;
+    }
+}
+
+
+
+.sorr{
+    width:25vw;
+}
+
+  /* Styling for the Price Range Div */
+  .pau{
+width: 100%;
+display: flex;
+
+
+  }
+
+  .product{
+    margin:1rem;
+    padding: 0.5rem;;
+    display:flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .product img{
+    width: 20rem;
+    height: 8rem;
+  }
+  .product p:hover
+  {
+    color: #e60f0f;
+      
+
+
+  }
+
+h1{
+    
+    float: inline-end;
+    justify-self: unset;
+}
+
+
+  .price-range-div {
+    background-color: #f0f0f0;
+    padding: .5rem;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+
+   
+}
+.fa-solid fa-cart-shopping .fa-solid fa-cart-shopping .fa-solid fa-share i:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+/* Styling for the Books List Div */
+.books-list {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: space-around;
+}
+
+.book {
+    width: 30%; /* 3 columns in a row */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+.book h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.book p {
+    font-size: 14px;
+    color: #555;
+}
+
+.book button {
+    background-color: #17cfdc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.book button:hover {
+    background-color: #0056b3;
+}
+
+
+.alldone{
+    padding: 0 2rem;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
